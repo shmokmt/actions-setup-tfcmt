@@ -12,6 +12,10 @@ runs:
       shell: bash
       env:
         TFCMT_VERSION: ${{ inputs.version }}
+    - run: echo ${TFCMT_VERSION}
+      shell: bash
+      env:
+        TFCMT_VERSION: ${{ inputs.version }}
     - run: tfcmt --version
       shell: bash
 
