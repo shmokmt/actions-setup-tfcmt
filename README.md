@@ -1,1 +1,1 @@
-# setup-tfcmd
+# actions-setup-tfcmt
