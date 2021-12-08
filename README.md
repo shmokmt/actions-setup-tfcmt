@@ -6,8 +6,9 @@ The shmokmt/setup-tfcmt action installs [suzuki-shunsuke/tfcmt](https://github.c
 
 ## `Inputs`
 
-version
-Optional The version of tfcmt. Default "latest".
+### `version`
+
+Optional. The version of tfcmt. Default is "latest".
 
 ## Usage
 
@@ -26,5 +27,5 @@ Use specific version
 steps:
 - uses: shmokmt/setup-tfcmt@v1
   with:
-    terraform_version: v2.1.0
+    version: v2.1.0
 ```
