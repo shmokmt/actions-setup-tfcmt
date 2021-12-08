@@ -103,7 +103,7 @@ adjust_arch() {
   # adjust archive name based on ARCH
   case ${ARCH} in
     386) ARCH=i386 ;;
-    amd64) ARCH=x86_64 ;;
+    amd64) ARCH=amd64 ;;
     darwin) ARCH=Darwin ;;
     linux) ARCH=Linux ;;
     windows) ARCH=Windows ;;

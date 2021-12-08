@@ -8,11 +8,11 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: bash ./install.sh -d
+    - run: sudo bash ./install.sh -b /usr/local/bin -d
       shell: bash
       env:
         TFCMT_VERSION: ${{ inputs.version }}
-    - run: ./tfcmt --version
+    - run: tfcmt --version
       shell: bash
 
 # Ref: https://haya14busa.github.io/github-action-brandings/
