@@ -11,6 +11,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2 
       
+      - run: sleep 5
+      
       - name: use the action
         uses: ./
         with:
@@ -25,6 +27,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2 
+
+      - run: sleep 5
       
       - name: use the action
         uses: ./
