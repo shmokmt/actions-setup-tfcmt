@@ -2,7 +2,7 @@
 
 [![Setup test](https://github.com/shmokmt/actions-setup-tfcmt/actions/workflows/test.yml/badge.svg)](https://github.com/shmokmt/actions-setup-tfcmt/actions/workflows/test.yml)
 
-The shmokmt/setup-tfcmt action installs [suzuki-shunsuke/tfcmt](https://github.com/suzuki-shunsuke/tfcmt) to the `PATH` in your GitHub Actions.
+The shmokmt/actions-setup-tfcmt action installs [suzuki-shunsuke/tfcmt](https://github.com/suzuki-shunsuke/tfcmt) to the `PATH` in your GitHub Actions.
 
 ## `Inputs`
 
@@ -18,14 +18,14 @@ Use latest version
 
 ```
 steps:
-- uses: shmokmt/setup-tfcmt@v1
+- uses: shmokmt/actions-setup-tfcmt@v1
 ```
 
 Use specific version
 
 ```
 steps:
-- uses: shmokmt/setup-tfcmt@v1
+- uses: shmokmt/actions-setup-tfcmt@v1
   with:
     version: v2.1.0
 ```
