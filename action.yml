@@ -1,3 +1,6 @@
+name: "actions-setup-tfcmt"
+description: "Setup suzuki-shunsuke/tfcmt"
+author: "shmokmt"
 inputs:
   version:
     description: "A version to install tfcmt"
