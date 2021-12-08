@@ -1,0 +1,13 @@
+inputs:
+  version:
+    description: "A version to install tfcmt"
+    default: "latest"
+runs:
+  using: "composite"
+  steps:
+    - run: bash ./install.sh -d
+      shell: bash
+      env:
+        TFCMT_VERSION: ${{ inputs.version }}
+    - run: ./tfcmt --version
+      shell: bash
