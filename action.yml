@@ -14,3 +14,8 @@ runs:
         TFCMT_VERSION: ${{ inputs.version }}
     - run: ./tfcmt --version
       shell: bash
+
+# Ref: https://haya14busa.github.io/github-action-brandings/
+branding:
+  icon: 'terminal'
+  color: 'gray-dark'
