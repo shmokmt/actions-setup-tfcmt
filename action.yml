@@ -8,7 +8,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - run: curl -sfL https://raw.githubusercontent.com/shmokmt/actions-setup-tfcmt/main/install.sh | sudo sh -s  -- -b /usr/local/bin -d
+    - run: curl -sfL https://raw.githubusercontent.com/shmokmt/actions-setup-tfcmt/main/install.sh | sudo sh -s  -- -b /usr/local/bin -d ${TFCMT_VERSION}
       shell: bash
       env:
         TFCMT_VERSION: ${{ inputs.version }}

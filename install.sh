@@ -33,7 +33,7 @@ parse_args() {
     esac
   done
   shift $((OPTIND - 1))
-  TAG="${TFCMT_VERSION:-latest}"
+  TAG=$1
 }
 # this function wraps all the destructive operations
 # if a curl|bash cuts off the end of the script due to
