@@ -1,4 +1,4 @@
-name: "actions-setup-tfcmt"
+name: "setup-tfcmt"
 description: "Setup suzuki-shunsuke/tfcmt"
 author: "shmokmt"
 inputs:
