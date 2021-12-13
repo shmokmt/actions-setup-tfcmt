@@ -16,16 +16,16 @@ This action can run be on `ubuntu-latest` and `macos-latest`.
 
 Use latest version
 
-```
+```yaml
 steps:
-- uses: shmokmt/actions-setup-tfcmt@v1
+  - uses: shmokmt/actions-setup-tfcmt@v1
 ```
 
 Use specific version
 
-```
+```yaml
 steps:
-- uses: shmokmt/actions-setup-tfcmt@v1
-  with:
-    version: v2.1.0
+  - uses: shmokmt/actions-setup-tfcmt@v1
+    with:
+      version: v2.1.0
 ```
