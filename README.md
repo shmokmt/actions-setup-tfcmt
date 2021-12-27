@@ -18,14 +18,14 @@ Use latest version
 
 ```yaml
 steps:
-  - uses: shmokmt/actions-setup-tfcmt@v1
+  - uses: shmokmt/actions-setup-tfcmt@v2
 ```
 
 Use specific version
 
 ```yaml
 steps:
-  - uses: shmokmt/actions-setup-tfcmt@v1
+  - uses: shmokmt/actions-setup-tfcmt@v2
     with:
       version: v2.1.0
 ```
