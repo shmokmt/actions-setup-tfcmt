@@ -9,10 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      
+        uses: actions/checkout@v4
+
       - run: sleep 5
-      
+
       - name: use the action
         uses: ./
         with:
@@ -26,10 +26,10 @@ jobs:
     runs-on: macos-11
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - run: sleep 5
-      
+
       - name: use the action
         uses: ./
         with:
