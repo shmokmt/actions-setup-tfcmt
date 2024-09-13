@@ -27,5 +27,5 @@ Use specific version
 steps:
   - uses: shmokmt/actions-setup-tfcmt@v2
     with:
-      version: v2.1.0
+      version: v4.13.0
 ```
