@@ -29,3 +29,8 @@ steps:
     with:
       version: v4.13.0
 ```
+
+# References
+
+- [tfcmt official docs](https://suzuki-shunsuke.github.io/tfcmt/)
+- [tfcmt のいい感じのテンプレート Zenn](https://zenn.dev/bm_sms/articles/b1e4778f5b40e9)
