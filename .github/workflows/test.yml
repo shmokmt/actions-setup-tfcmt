@@ -23,7 +23,7 @@ jobs:
           tfcmt --version
 
   test-darwin:
-    runs-on: macos-11
+    runs-on: macos-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
